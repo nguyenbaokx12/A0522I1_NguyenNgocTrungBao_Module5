@@ -1,0 +1,40 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+  Open Calculator
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Calculator</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="number1">Number 1</label>
+          <input type="number" class="form-control" id="number1" placeholder="Enter number 1" [(ngModel)]="number1">
+        </div>
+        <div class="form-group">
+          <label for="number2">Number 2</label>
+          <input type="number" class="form-control" id="number2" placeholder="Enter number 2" [(ngModel)]="number2">
+        </div>
+        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-primary" (click)="calculator('+')">+</button>
+          <button type="button" class="btn btn-primary" (click)="calculator('-')">-</button>
+          <button type="button" class="btn btn-primary" (click)="calculator('*')">*</button>
+          <button type="button" class="btn btn-primary" (click)="calculator('/')">/</button>
+        </div>
+        <div class="form-group mt-3">
+          <label for="result">Result</label>
+          <input type="text" class="form-control" id="result" value="{{result}}" disabled>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> 
