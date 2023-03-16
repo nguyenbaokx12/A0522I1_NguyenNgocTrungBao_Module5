@@ -1,0 +1,39 @@
+<!--Template-->
+<style>
+  .article-container {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .article-container a {
+    font-size: 18px;
+    color: blue;
+    text-decoration: none;
+  }
+  .article-container a:hover {
+    text-decoration: underline;
+  }
+  .article-container textarea {
+    margin: 5px 0;
+  }
+  .article-container input {
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .article-container input:hover {
+    background-color: darkblue;
+  }
+</style>
+<div class="article-container">
+  <a href="{{article.url}}" target="_blank">{{article.title}}</a>
+  <br>
+  <textarea #title [value]="article.title" cols="70"></textarea>
+  <br>
+  <textarea #url [value]="article.url" cols="70"></textarea>
+  <br>
+  <input (click)="upgradeArticle(title, url)" type="button" value="Update">
+</div>
