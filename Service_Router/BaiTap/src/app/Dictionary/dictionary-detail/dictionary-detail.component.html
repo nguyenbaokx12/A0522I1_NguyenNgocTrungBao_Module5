@@ -1,0 +1,13 @@
+<div class="card border-info mt-4">
+    <div class="card-body">
+        <h4 class="card-title">Dictionary Detail</h4>
+        <div *ngIf="dictionaryDetail; else noData">
+            <div>Word: {{dictionaryDetail.word}}</div>
+            <div>Mean: {{dictionaryDetail.mean}}</div>
+        </div>
+
+        <div #noData>
+            <p style="color: red">No Data</p>
+        </div>
+    </div>
+</div>
