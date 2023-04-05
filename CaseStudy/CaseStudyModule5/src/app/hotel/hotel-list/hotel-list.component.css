@@ -1,0 +1,51 @@
+.form-book{
+    width: 100%;
+    height: 400px;
+    background-image: url('https://www.furama.com/assets/international/images/reservation/main-banner.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-gap: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 290px;
+    height: 370px;
+    transition: all 0.17s ease-in-out;
+
+}
+
+.card>img {
+    width: 286px;
+    height: 172px;
+}
+
+.card-body>a {
+    color: black;
+    border: solid 1px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: small;
+    padding: 10px 50px;
+}
+
+.card-body>a:hover {
+    background-color: #af936c;
+    border: 1px solid #af936c;
+    color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+
+ul>li, ul{
+    list-style: none;
+    padding: 0;
+}

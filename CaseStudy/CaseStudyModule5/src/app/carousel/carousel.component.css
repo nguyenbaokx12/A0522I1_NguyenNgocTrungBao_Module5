@@ -1,0 +1,11 @@
+.editimg {
+    height: 600px;
+    width: 100%;
+}
+
+.text-container {
+    position: absolute;
+    margin-top: -23%;
+    color: white;
+    margin-left: 20px;
+}

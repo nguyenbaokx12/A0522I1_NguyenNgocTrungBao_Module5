@@ -1,0 +1,25 @@
+<div class="form-book">
+  
+</div>
+<div class="container">
+  <div class="main-list" *ngFor="let item of hotels">
+    <div class="card" style="width: 18rem;">
+      <img [src]="item.img" class="card-img-top" alt="...">
+      <div class="card-body">
+        <ul>
+          <h5 class="card-title">{{item.name}}</h5>
+          <li>Địa Chỉ: {{item.location}}</li>
+          <li>
+            <span *ngFor="let star of starList">
+              <span *ngIf="star.id == item.star">
+                Sao: {{star.name}}
+              </span>
+            </span>
+          </li>
+          <li>Giá: {{item.priceHotel}}</li>
+        </ul>
+        <a href="#">Book Now</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #242323;
+  }
+  
+  .navbar {
+    box-shadow: 0 10px 7px -6px rgba(0, 0, 0, .55);
+  }
+  
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: blue;
+  }
+  
+  .offcanvas-header:hover {
+    color: rgb(0, 81, 255);
+  }
+  

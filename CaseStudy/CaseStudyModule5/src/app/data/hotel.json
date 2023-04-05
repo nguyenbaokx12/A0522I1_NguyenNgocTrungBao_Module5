@@ -1,0 +1,66 @@
+{
+  "hotel": [
+    {
+      "id": 1,
+      "name": "LAMANGA Hotel & Suites",
+      "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/234762091.jpg?k=45540c95d66e3278d194a4a35994dd3491811d644b2a6cb3e3da1b187dfa7d06&o=&hp=1",
+      "star": "1",
+      "location": "Đà Nẵng",
+      "priceHotel": "120000"
+    },
+    {
+      "id": 2,
+      "name": "La Beach Hotel",
+      "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/234762091.jpg?k=45540c95d66e3278d194a4a35994dd3491811d644b2a6cb3e3da1b187dfa7d06&o=&hp=1",
+      "star": "2",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 3,
+      "name": "La Beach Hotel",
+      "img": "https://hanoihotel.com.vn/wp-content/uploads/sites/97/2020/04/hanoi-hotel17975-1517.jpg",
+      "star": "3",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 4,
+      "name": "La Beach Hotel",
+      "img": "https://hanoihotel.com.vn/wp-content/uploads/sites/97/2020/04/hanoi-hotel17975-1517.jpg",
+      "star": "4",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 5,
+      "name": "La Beach Hotel",
+      "img": "https://www.welcome-hotels.com/site/assets/files/35055/welcome_hotel_marburg_restaurant_5k.2560x1600.jpg",
+      "star": "3",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    }
+  ],
+  "star": [
+    {
+      "id": 1,
+      "name": "1 sao"
+    },
+    {
+      "id": 2,
+      "name": "2 sao"
+    },
+    {
+      "id": 3,
+      "name": "3 sao"
+    },
+    {
+      "id": 4,
+      "name": "4 sao"
+    },
+    {
+      "id": 5,
+      "name": "5 sao"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+/* ............... */
+
+.service-info1 {
+    width: 1260;
+    height: 232px;
+    margin: 0px 200px 50px 220px;
+    padding: 20px 0px;
+    background-color: #f0f0f0;
+}
+
+.service-info1>img {
+    width: 520px;
+    height: 230px;
+    position: relative;
+    top: -40px;
+    right: 20px;
+    float: left;
+}
+
+.service-text1 {
+    width: 500px;
+    height: 210px;
+    margin-left: 515px;
+}
+
+.service-info1>.service-text1>img {
+    height: 30px;
+}
+
+.service-info1>.service-text1>a {
+    color: black;
+    border: solid 1px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: small;
+    padding: 10px 100px;
+}
+
+.service-info1>.service-text1>a:hover {
+    background-color: #af936c;
+    border: 1px solid #af936c;
+    color: #fff;
+}
+
+/* ...................... */
+
+.service-info2 {
+    width: 1260;
+    height: 232px;
+    margin: 0px 220px 50px 200px;
+    padding: 20px 0px;
+    background-color: #f0f0f0;
+}
+
+.service-info2>img {
+    width: 520px;
+    height: 230px;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    float: right;
+}
+
+.service-text2 {
+    width: 500px;
+    height: 210;
+    margin-right: 500px;
+    margin-left: 30px;
+}
+
+.service-info2>.service-text2>img {
+    height: 30px;
+
+}
+
+.service-info2>.service-text2>a {
+    color: black;
+    border: solid 1px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: small;
+    padding: 10px 100px;
+}
+
+.service-info2>.service-text2>a:hover {
+    background-color: #af936c;
+    border: 1px solid #af936c;
+    color: #fff;
+}
+
+/* ............................. */
+
+
+.service-info3 {
+    width: 1260;
+    height: 232px;
+    margin: 0px 200px 50px 220px;
+    padding: 20px 0px;
+    background-color: #f0f0f0;
+}
+
+.service-info3>img {
+    width: 520px;
+    height: 230px;
+    position: relative;
+    top: -40px;
+    right: 20px;
+    float: left;
+}
+
+.service-text3 {
+    width: 500px;
+    height: 210px;
+    margin-left: 515px;
+}
+
+.service-info3>.service-text3>img {
+    height: 30px;
+}
+
+.service-info3>.service-text3>a {
+    color: black;
+    border: solid 1px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: small;
+    padding: 10px 100px;
+}
+
+.service-info3>.service-text3>a:hover {
+    background-color: #af936c;
+    border: 1px solid #af936c;
+    color: #fff;
+}

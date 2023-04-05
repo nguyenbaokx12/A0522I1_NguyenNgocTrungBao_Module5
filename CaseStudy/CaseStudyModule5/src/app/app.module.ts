@@ -3,19 +3,31 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
-import { EmployeesComponent } from './components/employees/employees.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeServiceComponent } from './home-service/home-service.component';
+import { HotelListComponent } from './hotel/hotel-list/hotel-list.component';
+import { ResortListComponent } from './resort-list/resort-list.component';
+import { RoomListComponent } from './room-list/room-list.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { HttpClientModule } from "@angular/common/http";
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    EmployeesComponent,
+    NavigationComponent,
+    FooterComponent,
+    HomeServiceComponent,
+    HotelListComponent,
+    ResortListComponent,
+    RoomListComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
