@@ -1,0 +1,15 @@
+<h1> Danh sách từ có trong từ điển </h1>
+<img src="https://thumbs.dreamstime.com/b/logo-online-dictionary-concept-laptop-as-book-99816714.jpg" width="70px"
+     height="70px">
+<table class="table table-bordered table-hover">
+  <tr>
+    <th>STT</th>
+    <th>Từ</th>
+    <th>Dịch nghĩa</th>
+  </tr>
+  <tr *ngFor=" let word of words ; index as i " >
+    <td>{{i + 1}}</td>
+    <td><a [routerLink]="['/detail' , word.id ]">{{word.word}} </a></td>
+    <td><a [routerLink]="['/detail' , word.id ]">{{word.meaning}} </a></td>
+  </tr>
+</table>
