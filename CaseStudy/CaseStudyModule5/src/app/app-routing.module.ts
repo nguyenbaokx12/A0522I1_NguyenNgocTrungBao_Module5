@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeServiceComponent } from './home-service/home-service.component';
-import { HotelListComponent } from './hotel/hotel-list/hotel-list.component';
-import { ResortListComponent } from './resort-list/resort-list.component';
-import { RoomListComponent } from './room-list/room-list.component';
+import { ServiceListComponent } from './service-list/service-list.component';
+import { HotelListComponent } from './home-service/hotel/hotel-list/hotel-list.component';
+import { CustomerListComponent } from './customer/customer-list/customer-list.component';
+import { CustomerCreateComponent } from './customer/customer-create/customer-create.component';
+import { CustomerEditComponent } from './customer/customer-edit/customer-edit.component';
 
 
 const routes: Routes = [
-  { path: '', component: HomeServiceComponent },
+  { path: '', component: ServiceListComponent },
   { path: 'hotel', component: HotelListComponent },
-  { path: 'resort', component: ResortListComponent },
-  { path: 'room', component: RoomListComponent }
+  { path: "customer", component: CustomerListComponent },
+  { path: "customer/delete/:id", component: CustomerListComponent },
+  { path: "customer/create", component: CustomerCreateComponent },
+  { path: "customer/edit/:id", component: CustomerEditComponent }
 ];
 
 @NgModule({

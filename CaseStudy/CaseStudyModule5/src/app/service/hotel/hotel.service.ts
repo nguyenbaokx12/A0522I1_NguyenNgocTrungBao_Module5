@@ -24,4 +24,5 @@ export class HotelService {
     }
     return this.http.post(this.url,hotels);
   }
+
 }

@@ -8,7 +8,6 @@
       <div class="card-body">
         <ul>
           <h5 class="card-title">{{item.name}}</h5>
-          <li>Địa Chỉ: {{item.location}}</li>
           <li>
             <span *ngFor="let star of starList">
               <span *ngIf="star.id == item.star">
@@ -16,6 +15,7 @@
               </span>
             </span>
           </li>
+          <li>Địa Chỉ: {{item.location}}</li>
           <li>Giá: {{item.priceHotel}}</li>
         </ul>
         <a href="#">Book Now</a>

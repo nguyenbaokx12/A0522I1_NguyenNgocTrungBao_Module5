@@ -1,0 +1,38 @@
+<app-carousel></app-carousel>
+<h4 style="font-family: Algerian; text-align: center; font-size: 50px;">Customer</h4>
+<table class="table table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th>Name</th>
+      <th>Day of Birth</th>
+      <th>Gender</th>
+      <th>Phone</th>
+      <th>ID Card</th>
+      <th>Email</th>
+      <th>Customer Type</th>
+      <th>Address</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let customers of customer | paginate: {itemsPerPage: 4, currentPage: p}">
+      <td>{{ customers.name }}</td>
+      <td>{{ customers.dateOfBirth | date:"dd/MM/yyyy" }}</td>
+      <td>{{ customers.gender }}</td>
+      <td>0{{ customers.phoneNumber}}</td>
+      <td>{{ customers.idCard }}</td>
+      <td>{{ customers.email }}</td>
+      <td>{{ customers.customerType.name }}</td>
+      <td>{{ customers.address }}</td>
+      <td>
+        <a class="btn btn-info" title="EDIT" style="text-decoration: none; color: white; margin-right: 10px;"
+          [routerLink]="['/customer/edit', customers.id]"><i class="fa-regular fa-pen"></i></a>
+        <a class="btn btn-danger" title="DELETE" style="text-decoration: none; color: white;"
+          [routerLink]="['/customer/delete', customers.id]"><i class="fa-solid fa-trash"></i></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<pagination-controls class="pagination justify-content-center" previousLabel="" nextLabel="" ellipsisLabel="..."
+  (pageChange)="p = $event">
+</pagination-controls>

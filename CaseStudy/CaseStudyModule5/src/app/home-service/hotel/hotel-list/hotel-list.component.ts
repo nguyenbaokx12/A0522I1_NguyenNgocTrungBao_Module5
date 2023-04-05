@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Hotel } from '../../model/hotel/hotel';
-import { Star } from '../../model/hotel/star';
-import { HotelService } from '../../service/hotel/hotel.service';
-import { StarService } from '../../service/hotel/star.service';
+import { Hotel } from 'src/app/model/hotel/hotel';
+import { Star } from 'src/app/model/hotel/star';
+import { HotelService } from 'src/app/service/hotel/hotel.service';
+import { StarService } from 'src/app/service/hotel/star.service';
 
 @Component({
   selector: 'app-hotel-list',

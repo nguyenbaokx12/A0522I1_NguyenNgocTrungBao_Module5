@@ -1,0 +1,18 @@
+<form [formGroup]="formHotel" (ngSubmit)="submitHotel()">
+    <input formControlName = "id" name="id" type="text" hidden><br>
+
+    <label for="">IMAGE</label><br>
+    <input formControlName = "img" name="img" type="file" required><br>
+    <label for="">NAME</label><br>
+    <input formControlName = "name" name="name" type="text" required><br>
+    <select name="star" formControlName="star">
+        <option *ngFor="let check of starList" value="{{check.id}}">
+            {{check.name}}
+        </option>
+    </select>
+    <label for="">LOCATION</label><br>
+    <input formControlName = "location" name="location" type="file" required><br>
+    <label for="">PRICE</label><br>
+    <input formControlName = "price" name="price" type="file" required><br>
+    <button type = "submit">ok</button>
+</form>

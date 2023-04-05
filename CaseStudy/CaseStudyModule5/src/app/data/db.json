@@ -1,0 +1,232 @@
+{
+  "hotel": [
+    {
+      "id": 1,
+      "name": "LAMANGA Hotel & Suites",
+      "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/234762091.jpg?k=45540c95d66e3278d194a4a35994dd3491811d644b2a6cb3e3da1b187dfa7d06&o=&hp=1",
+      "star": "1",
+      "location": "Đà Nẵng",
+      "priceHotel": "120000"
+    },
+    {
+      "id": 2,
+      "name": "La Beach Hotel",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/220310001509-07-best-boutique-hotels-europe-2022-palazzo-rainis.jpg?q=h_1687,w_3000,x_0,y_0/w_1280",
+      "star": "2",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 3,
+      "name": "La Beach Hotel",
+      "img": "https://hanoihotel.com.vn/wp-content/uploads/sites/97/2020/04/hanoi-hotel17975-1517.jpg",
+      "star": "3",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 4,
+      "name": "La Beach Hotel",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ09YjLTOZN-IVd_l7O-oO2As03AkxnC8iklEbJIbbgmwZWxrt62IAaVoUn8U8ToxOAflo&usqp=CAU",
+      "star": "4",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 5,
+      "name": "La Beach Hotel",
+      "img": "https://www.welcome-hotels.com/site/assets/files/35055/welcome_hotel_marburg_restaurant_5k.2560x1600.jpg",
+      "star": "3",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 6,
+      "name": "La Beach Hotel",
+      "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/234762091.jpg?k=45540c95d66e3278d194a4a35994dd3491811d644b2a6cb3e3da1b187dfa7d06&o=&hp=1",
+      "star": "2",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 7,
+      "name": "La Beach Hotel",
+      "img": "https://www.myboutiquehotel.com/photos/101922/domaine-de-fontenille-lauris-078-19055-1110x700.jpg",
+      "star": "1",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 8,
+      "name": "La Beach Hotel",
+      "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/234762091.jpg?k=45540c95d66e3278d194a4a35994dd3491811d644b2a6cb3e3da1b187dfa7d06&o=&hp=1",
+      "star": "2",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 9,
+      "name": "La Beach Hotel",
+      "img": "https://www.lesdomainesdefontenille.com/_novaimg/galleria/1488964.jpg",
+      "star": "4",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 10,
+      "name": "La Beach Hotel",
+      "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/234762091.jpg?k=45540c95d66e3278d194a4a35994dd3491811d644b2a6cb3e3da1b187dfa7d06&o=&hp=1",
+      "star": "6",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 11,
+      "name": "La Beach Hotel",
+      "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/234762091.jpg?k=45540c95d66e3278d194a4a35994dd3491811d644b2a6cb3e3da1b187dfa7d06&o=&hp=1",
+      "star": "2",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 12,
+      "name": "La Beach Hotel",
+      "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/234762091.jpg?k=45540c95d66e3278d194a4a35994dd3491811d644b2a6cb3e3da1b187dfa7d06&o=&hp=1",
+      "star": "2",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 13,
+      "name": "La Beach Hotel",
+      "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/234762091.jpg?k=45540c95d66e3278d194a4a35994dd3491811d644b2a6cb3e3da1b187dfa7d06&o=&hp=1",
+      "star": "2",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    },
+    {
+      "id": 14,
+      "name": "La Beach Hotel",
+      "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/234762091.jpg?k=45540c95d66e3278d194a4a35994dd3491811d644b2a6cb3e3da1b187dfa7d06&o=&hp=1",
+      "star": "2",
+      "location": "Hồ Chí Minh",
+      "priceHotel": "300000"
+    }
+  ],
+  "star": [
+    {
+      "id": 1,
+      "name": "1 sao"
+    },
+    {
+      "id": 2,
+      "name": "2 sao"
+    },
+    {
+      "id": 3,
+      "name": "3 sao"
+    },
+    {
+      "id": 4,
+      "name": "4 sao"
+    },
+    {
+      "id": 5,
+      "name": "5 sao"
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "BCA",
+      "dateOfBirth": "2023-03-29",
+      "gender": "Nam",
+      "idCard": "201901564",
+      "phoneNumber": 935530198,
+      "email": "abc@gmail.com",
+      "address": "550000",
+      "customerType": {
+        "id": 2,
+        "name": "Platinium"
+      }
+    },
+    {
+      "id": 2,
+      "name": "BCA",
+      "dateOfBirth": "2023-03-29",
+      "gender": "Nam",
+      "idCard": "201901564",
+      "phoneNumber": 935530198,
+      "email": "abc@gmail.com",
+      "address": "550000",
+      "customerType": {
+        "id": 4,
+        "name": "Platinium"
+      }
+    },
+    {
+      "id": 3,
+      "name": "BCA",
+      "dateOfBirth": "2023-03-29",
+      "gender": "Nam",
+      "idCard": "201901564",
+      "phoneNumber": 935530198,
+      "email": "abc@gmail.com",
+      "address": "550000",
+      "customerType": {
+        "id": 2,
+        "name": "Platinium"
+      }
+    },
+    {
+      "id": 4,
+      "name": "BCA",
+      "dateOfBirth": "2023-03-29",
+      "gender": "Nam",
+      "idCard": "201901564",
+      "phoneNumber": 935530198,
+      "email": "abc@gmail.com",
+      "address": "550000",
+      "customerType": {
+        "id": 3,
+        "name": "Platinium"
+      }
+    },
+    {
+      "id": 5,
+      "name": "BCA",
+      "dateOfBirth": "2023-03-29",
+      "gender": "Nam",
+      "idCard": "201901564",
+      "phoneNumber": 935530198,
+      "email": "abc@gmail.com",
+      "address": "550000",
+      "customerType": {
+        "id": 2,
+        "name": "Platinium"
+      }
+    }
+  ],
+  "customerType": [
+    {
+      "id": 1,
+      "name": "Diamond"
+    },
+    {
+      "id": 2,
+      "name": "Platinium"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Silver"
+    },
+    {
+      "id": 5,
+      "name": "Member"
+    }
+  ]
+}
