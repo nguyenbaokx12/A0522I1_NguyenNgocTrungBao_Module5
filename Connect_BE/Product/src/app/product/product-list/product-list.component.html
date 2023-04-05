@@ -1,0 +1,21 @@
+<table class="table table-dark table-primary">
+  <tr class = "bg-success">
+    <th>No</th>
+    <th>id</th>
+    <th>name</th>
+    <th>price</th>
+    <th>manufacturer</th>
+    <th>Action</th>
+  </tr>
+  <tr *ngFor="let itemp of products;let i = index">
+    <td>{{i + 1}}</td>
+    <td>{{itemp.id}}</td>
+    <td>{{itemp.name}}</td>
+    <td>{{itemp.price}}</td>
+    <td>{{itemp.manufacturer}}</td>
+    <td>
+      <a [routerLink]="['/product/edit',itemp.id]" class="btn btn-outline-warning" >Edit</a>
+      <a [routerLink]="['/product',itemp.id]"class="btn btn-danger" >Delete</a>
+    </td>
+  </tr>
+</table>

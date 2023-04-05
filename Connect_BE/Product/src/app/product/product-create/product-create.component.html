@@ -1,0 +1,15 @@
+<form [formGroup]="fProduct"  (ngSubmit)="productSubmit()" style="border: 1px solid yellow;width: 200px;background-color: orange">
+  <label for="">id</label><br>
+  <input formControlName = "id" type="text" name="id" required><br>
+<!--  <p style="color: red" *ngIf="products.controls.id.hasError('required') && products.controls.id.touched">Not empty</p>-->
+  <label for="">name</label><br>
+  <input formControlName = "name" type="text" name="name" required><br>
+<!--  <p style="color: red" *ngIf="products.controls.name.hasError('required') && products.controls.name.touched">Not empty</p>-->
+  <label for="">price</label><br>
+  <input formControlName = "price" type="text" name="price" required><br>
+<!--  <p style="color: red" *ngIf="products.controls.price.hasError('required') && products.controls.price.touched">Not Empty</p>-->
+<!--  <p style="color: red" *ngIf="products.controls.price.hasError('min')">giá phải lớn hơn 1</p>-->
+  <label for="">Manufacturer</label><br>
+  <input formControlName = "manufacturer" type="text" name="manufacturer"><br>
+  <button type="submit">Ok</button>
+</form>

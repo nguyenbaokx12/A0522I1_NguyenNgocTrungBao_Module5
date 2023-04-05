@@ -1,0 +1,58 @@
+{
+  "product": [
+    {
+      "id": 3,
+      "name": "Nokia",
+      "price": 2300,
+      "manufacturer": "Vn"
+    },
+    {
+      "id": "4",
+      "name": "hoang",
+      "price": "12",
+      "manufacturer": "USA"
+    },
+    {
+      "id": "5",
+      "name": "nokia2121",
+      "price": "2000",
+      "manufacturer": "USA"
+    },
+    {
+      "id": "7",
+      "name": "huy10",
+      "manufacturer": "ddf",
+      "price": "32323"
+    },
+    {
+      "id": "9",
+      "name": "huy11",
+      "manufacturer": "dsd",
+      "price": "323"
+    },
+    {
+      "id": "23232",
+      "name": "huy111111111",
+      "manufacturer": "dsd",
+      "price": "323"
+    },
+    {
+      "id": "232321",
+      "name": "huy1111111112233",
+      "manufacturer": "dsds",
+      "price": "3232"
+    },
+    {
+      "id": "23",
+      "name": "huy11111111122333d",
+      "manufacturer": "dsdsa",
+      "price": "32322"
+    },
+    {
+      "id": "24",
+      "name": "huy11111111122333d",
+      "manufacturer": "dsdsa",
+      "price": "32322"
+    }
+  ]
+}
