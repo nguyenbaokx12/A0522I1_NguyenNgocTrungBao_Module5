@@ -15,7 +15,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let customers of customer | paginate: {itemsPerPage: 4, currentPage: p}">
+    <tr *ngFor="let customers of customer ">
       <td>{{ customers.name }}</td>
       <td>{{ customers.dateOfBirth | date:"dd/MM/yyyy" }}</td>
       <td>{{ customers.gender }}</td>
@@ -33,6 +33,6 @@
     </tr>
   </tbody>
 </table>
-<pagination-controls class="pagination justify-content-center" previousLabel="" nextLabel="" ellipsisLabel="..."
+<!-- <pagination-controls class="pagination justify-content-center" previousLabel="" nextLabel="" ellipsisLabel="..."
   (pageChange)="p = $event">
-</pagination-controls>
+</pagination-controls> -->

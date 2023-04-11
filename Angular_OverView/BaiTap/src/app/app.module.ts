@@ -7,6 +7,7 @@ import { SimpleCalculatorComponent } from './simple-calculator/simple-calculator
 import { FormsModule } from '@angular/forms';
 import { ColorPickerComponent } from './color-picker/color-picker.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

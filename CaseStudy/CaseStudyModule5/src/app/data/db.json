@@ -137,20 +137,6 @@
   ],
   "customer": [
     {
-      "id": 1,
-      "name": "BCA",
-      "dateOfBirth": "2023-03-29",
-      "gender": "Nam",
-      "idCard": "201901564",
-      "phoneNumber": 935530198,
-      "email": "abc@gmail.com",
-      "address": "550000",
-      "customerType": {
-        "id": 2,
-        "name": "Platinium"
-      }
-    },
-    {
       "id": 2,
       "name": "BCA",
       "dateOfBirth": "2023-03-29",

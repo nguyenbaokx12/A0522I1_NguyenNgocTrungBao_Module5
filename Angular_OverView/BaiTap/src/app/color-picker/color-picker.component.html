@@ -4,7 +4,7 @@
 </button>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Color Picker</h5>
@@ -14,10 +14,11 @@
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label for="colorPicker">Pick a color</label>
+                    <label for="colorPicker">Pick a color for result 1:</label>
                     <input id="colorPicker" class="form-control" type="color" [(ngModel)]="color2">
                 </div>
                 <br>
+                <label for="colorPicker">Pick a color for result 2:</label><br>
                 <button type="button" class="btn btn-primary" (click)="color('primary')">Primary</button>
                 <button type="button" class="btn btn-success" (click)="color('success')">Success</button>
                 <button type="button" class="btn btn-danger" (click)="color('danger')">Danger</button>
@@ -25,8 +26,8 @@
                 <button type="button" class="btn btn-light" (click)="color('light')">Light</button>
                 <br>
                 <div class="mt-3">
-                    <p [style.background-color]="colorNew" style="width: 50%; color: black; padding: 10px;">Result1</p>
-                    <p [ngStyle]="{'background-color' : color2}" style="width: 50%; padding: 10px;">Result2</p>
+                    <p [ngStyle]="{'background-color' : color2}" style="width: 50%; padding: 10px; border: solid 1px;">Result1</p>
+                    <p [style.background-color]="colorNew" style="width: 50%; color: black; padding: 10px; border: solid 1px;">Result2</p>
                 </div>
             </div>
             <div class="modal-footer">
@@ -44,6 +45,6 @@
     }
 
     .modal-body {
-        background-color: #F8F9FA;
+        background-color: #eaeced;
     }
 </style>

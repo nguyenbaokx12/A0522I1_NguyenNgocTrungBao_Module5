@@ -15,7 +15,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CustomerEditComponent } from './customer/customer-edit/customer-edit.component';
 import { CustomerCreateComponent } from './customer/customer-create/customer-create.component';
 import { CustomerListComponent } from './customer/customer-list/customer-list.component';
-import {NgxPaginationModule} from "ngx-pagination";
+// import {NgxPaginationModule} from "ngx-pagination";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +37,7 @@ import {NgxPaginationModule} from "ngx-pagination";
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    NgxPaginationModule
+    // NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
