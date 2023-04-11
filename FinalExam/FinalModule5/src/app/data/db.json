@@ -1,0 +1,62 @@
+{
+  "student": [
+    {
+      "id": 1023123,
+      "name": "TrungBaoooo",
+      "group": "Nhom 4",
+      "subject": "Abc",
+      "teacher": "5",
+      "email": "bao@gmail.com",
+      "phone": "0389056111"
+    },
+    {
+      "id": 2023123,
+      "name": "HuyBao",
+      "group": "Nhom 4",
+      "subject": "Abc",
+      "teacher": "5",
+      "email": "bao@gmail.com",
+      "phone": "0389056111"
+    },
+    {
+      "id": 5413123,
+      "name": "HuyBao",
+      "group": "Nhom 4",
+      "subject": "Abc",
+      "teacher": "2",
+      "email": "bao@gmail.com",
+      "phone": "0389056111"
+    },
+    {
+      "id": 2302323,
+      "name": "HuyBao",
+      "group": "Nhom 4",
+      "subject": "Abc",
+      "teacher": "4",
+      "email": "bao@gmail.com",
+      "phone": "0389056111"
+    }
+  ],
+  "teacher": [
+    {
+      "id": 1,
+      "name": "A01"
+    },
+    {
+      "id": 2,
+      "name": "A02"
+    },
+    {
+      "id": 3,
+      "name": "A03"
+    },
+    {
+      "id": 4,
+      "name": "A04"
+    },
+    {
+      "id": 5,
+      "name": "A05"
+    }
+  ]
+}

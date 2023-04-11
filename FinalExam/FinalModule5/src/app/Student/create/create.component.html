@@ -1,0 +1,83 @@
+<form style="margin-bottom: 60px;" [formGroup]="formStudent" (ngSubmit)="submitStudent()" class="container mt-5">
+    <h1>EDIT INFOMATION</h1>
+
+    <input formControlName="id" name="id" type="text" hidden>
+
+    <div class="form-group">
+        <label for="id">Ma sv:</label>
+        <input disabled="" formControlName="id" name="id" type="text" class="form-control">
+
+    </div>
+
+    <div class="form-group">
+        <label for="name">Ten sv:</label>
+        <input formControlName="name" name="name" type="text" class="form-control" required>
+        <p class="text-danger"
+            *ngIf="formStudent.controls.name.hasError('required') && formStudent.controls.name.touched">Please enter a
+            name</p>
+    </div>
+
+    <div class="form-group">
+        <label for="group">Ten nhom:</label>
+        <input formControlName="group" name="group" type="text" class="form-control" required>
+        <p class="text-danger"
+            *ngIf="formStudent.controls.group.hasError('required') && formStudent.controls.group.touched">Please enter a
+            group</p>
+    </div>
+
+    <div class="form-group">
+        <label for="subject">Ten de tai:</label>
+        <input formControlName="subject" name="subject" type="text" class="form-control" required>
+        <p class="text-danger"
+            *ngIf="formStudent.controls.subject.hasError('required') && formStudent.controls.subject.touched">Please
+            enter a
+            subject</p>
+    </div>
+
+
+
+    <div class="form-group">
+        <label for="teacher">Gv huong dan: </label>
+        <select formControlName="teacher" name="teacher" teacher="form-control">
+            <option *ngFor="let check of teacherList" value="{{check.id}}">
+                {{check.name}}
+            </option>
+        </select>
+        <p teacher="text-danger"
+            *ngIf="formStudent.controls.teacher.hasError('required') && formStudent.controls.teacher.touched">Please
+            select
+            a class</p>
+    </div>
+
+    <div class="form-group">
+        <label for="email">email:</label>
+        <input formControlName="email" name="email" type="email" class="form-control" required>
+        <p class="text-danger"
+            *ngIf="formStudent.controls.email.hasError('required') && formStudent.controls.email.touched">Please
+            enter a
+            email
+        </p>
+        <p class="text-danger"
+            *ngIf="formStudent.controls.email.hasError('email') && formStudent.controls.email.touched">
+            wrong format
+        </p>
+
+    </div>
+
+    <div class="form-group">
+        <label for="phone">sdt:</label>
+        <input formControlName="phone" name="phone" type="text" class="form-control">
+        <p class="text-danger"
+            *ngIf="formStudent.controls.phone.hasError('required') && formStudent.controls.phone.touched">Please enter
+            an
+            phone
+        </p>
+        <p class="text-danger"
+            *ngIf="formStudent.controls.phone.hasError('pattern') && formStudent.controls.phone.dirty">wrong format
+        </p>
+    </div>
+
+    <button style="margin-top: 10px; margin-right: 5px;" type="submit" class="btn btn-primary">Submit</button>
+    <button style="margin-top: 10px;" routerLink="/list" type="submit" class="btn btn-primary">Back</button>
+
+</form>
